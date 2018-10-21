@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="de9b6e88-41b5-4a69-aa5e-054b46abb3d7" name="Default Changelist" comment="sdfsddc">
       <change beforePath="$PROJECT_DIR$/Test_yourself_before_exam/Definitions.tsv" beforeDir="false" afterPath="$PROJECT_DIR$/Test_yourself_before_exam/Definitions.tsv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test_yourself_before_exam/Guess_TERM.py" beforeDir="false" afterPath="$PROJECT_DIR$/Test_yourself_before_exam/Guess_TERM.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Test_yourself_before_exam/Terminology.tsv" beforeDir="false" afterPath="$PROJECT_DIR$/Test_yourself_before_exam/Terminology.tsv" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -52,11 +51,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Test_yourself_before_exam/Definitions.tsv">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="312">
-              <caret line="40" column="77" selection-start-line="40" selection-start-column="77" selection-end-line="40" selection-end-column="77" />
+            <state relative-caret-position="183">
+              <caret line="75" column="51" lean-forward="true" selection-start-line="75" selection-start-column="51" selection-end-line="75" selection-end-column="51" />
             </state>
           </provider>
         </entry>
@@ -74,8 +73,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Test_yourself_before_exam/Terminology.tsv">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="338">
-              <caret line="45" column="20" lean-forward="true" selection-start-line="45" selection-start-column="20" selection-end-line="45" selection-end-column="20" />
+            <state relative-caret-position="359">
+              <caret line="90" column="10" selection-start-line="90" selection-start-column="10" selection-end-line="90" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -83,8 +82,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Test_yourself_before_exam/Guess_definition.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="364">
-              <caret line="59" lean-forward="true" selection-start-line="59" selection-end-line="59" />
+            <state relative-caret-position="227">
+              <caret line="58" column="22" selection-start-line="58" selection-start-column="22" selection-end-line="58" selection-end-column="22" />
               <folding>
                 <marker date="1540129587720" expanded="true" signature="13:15" ph="..." />
                 <marker date="1540129587720" expanded="true" signature="42:47" ph="..." />
@@ -93,7 +92,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Test_yourself_before_exam/Guess_TERM.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="195">
@@ -114,6 +113,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>сегме</find>
+      <find>кла</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -130,9 +130,9 @@
         <option value="$PROJECT_DIR$/Test_yourself.py" />
         <option value="$PROJECT_DIR$/Guess_the_opposite.py" />
         <option value="$PROJECT_DIR$/Test_yourself_before_exam/Guess_definition.py" />
-        <option value="$PROJECT_DIR$/Test_yourself_before_exam/Terminology.tsv" />
         <option value="$PROJECT_DIR$/Test_yourself_before_exam/Guess_TERM.py" />
         <option value="$PROJECT_DIR$/Test_yourself_before_exam/Definitions.tsv" />
+        <option value="$PROJECT_DIR$/Test_yourself_before_exam/Terminology.tsv" />
       </list>
     </option>
   </component>
@@ -315,7 +315,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="487" y="43" width="933" height="792" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
       <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.25476992" />
@@ -360,17 +359,10 @@
     <entry file="file://$PROJECT_DIR$/../pythonpractice/Homework/Homework 3/Homework3.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Test_yourself_before_exam/Guess_TERM.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="40" selection-start-line="13" selection-start-column="40" selection-end-line="13" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Test_yourself_before_exam/Guess_definition.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
-          <caret line="59" lean-forward="true" selection-start-line="59" selection-end-line="59" />
+        <state relative-caret-position="227">
+          <caret line="58" column="22" selection-start-line="58" selection-start-column="22" selection-end-line="58" selection-end-column="22" />
           <folding>
             <marker date="1540129587720" expanded="true" signature="13:15" ph="..." />
             <marker date="1540129587720" expanded="true" signature="42:47" ph="..." />
@@ -378,17 +370,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Test_yourself_before_exam/Terminology.tsv">
+    <entry file="file://$PROJECT_DIR$/Test_yourself_before_exam/Definitions.tsv">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="338">
-          <caret line="45" column="20" lean-forward="true" selection-start-line="45" selection-start-column="20" selection-end-line="45" selection-end-column="20" />
+        <state relative-caret-position="183">
+          <caret line="75" column="51" lean-forward="true" selection-start-line="75" selection-start-column="51" selection-end-line="75" selection-end-column="51" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Test_yourself_before_exam/Definitions.tsv">
+    <entry file="file://$PROJECT_DIR$/Test_yourself_before_exam/Terminology.tsv">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="40" column="77" selection-start-line="40" selection-start-column="77" selection-end-line="40" selection-end-column="77" />
+        <state relative-caret-position="359">
+          <caret line="90" column="10" selection-start-line="90" selection-start-column="10" selection-end-line="90" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Test_yourself_before_exam/Guess_TERM.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="40" selection-start-line="13" selection-start-column="40" selection-end-line="13" selection-end-column="40" />
         </state>
       </provider>
     </entry>
