@@ -11,6 +11,7 @@ definitions = file_reading('Definitions.tsv')
 the_dictionary = dict(zip(terminology, definitions))
 
 print ('Let\'s start the test! (press Enter to end the game)')
+print (len(terminology), len(definitions))
 
 answer = 1
 while answer != '':
