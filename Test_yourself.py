@@ -27,7 +27,7 @@ the_dictionary = dict(zip(terminology, definitions))
     while a == c or b == c:
         c = random.randint(0, dic_len)'''
 
-print ('Let\s start the test!')
+print ('Let\'s start the test!')
 
 #while input() != '':
     #one, two, three = the_dictionary.values[a], the_dictionary.values[b], \
