@@ -34,30 +34,32 @@ print ('Let\'s start the test!')
 #                      the_dictionary.values[c]
     #options = random.shuffle([one, two, three])
 
-random_term = random.choice(list(the_dictionary.keys()))
-print ('\n', random_term.upper() + ':\n')
-# print (the_dictionary[random_term])
-one = random.choice(list(the_dictionary.keys()))
-while one == random_term:
+answer = 1
+while answer != '':
+    random_term = random.choice(list(the_dictionary.keys()))
+    print ('\n', random_term.upper() + ':\n')
+    # print (the_dictionary[random_term])
     one = random.choice(list(the_dictionary.keys()))
-two = random.choice(list(the_dictionary.keys()))
-while two == one or two == random_term:
+    while one == random_term:
+        one = random.choice(list(the_dictionary.keys()))
     two = random.choice(list(the_dictionary.keys()))
-# print ('\n', the_dictionary[one], '\n\n', the_dictionary[two], '\n')
+    while two == one or two == random_term:
+        two = random.choice(list(the_dictionary.keys()))
+    # print ('\n', the_dictionary[one], '\n\n', the_dictionary[two], '\n')
 
-answers = [random_term, one, two]
-right_answer = the_dictionary[random_term]
-random.shuffle(answers)
+    answers = [random_term, one, two]
+    right_answer = the_dictionary[random_term]
+    random.shuffle(answers)
 
-n = 1
-for i in answers:
-    print ('{}) '.format(n), the_dictionary[i], '\n')
-    n += 1
+    n = 1
+    for i in answers:
+        print ('{}) '.format(n), the_dictionary[i], '\n')
+        n += 1
 
-answer = int(input('Введите ответ: 1, 2 или 3: '))
+    answer = int(input('Введите ответ: 1, 2 или 3: '))
 
 
-if the_dictionary[random_term] == the_dictionary[answers[int(answer) - 1]]:
-    print ('Правильно')
-else:
-    print ('Неверно! Правильный ответ - ', the_dictionary[random_term])
+    if the_dictionary[random_term] == the_dictionary[answers[int(answer) - 1]]:
+        print ('Правильно')
+    else:
+        print ('Неверно! Правильный ответ - ', the_dictionary[random_term])
